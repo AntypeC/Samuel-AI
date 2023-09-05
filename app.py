@@ -4,7 +4,7 @@ from deep_translator import GoogleTranslator
 import os
 from flask import Flask, render_template, request, jsonify
 
-gptj = GPT4All(model_name="wizardLM-13B-Uncensored.ggmlv3.q4_0.bin", model_path="./model")
+gptj = GPT4All(model_name="nous-hermes-13b.ggmlv3.q4_0.bin", model_path="./model")
 os.system("clear && printf '\e[3J'")
 
 primary_lang = 'en'
