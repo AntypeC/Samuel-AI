@@ -2,7 +2,6 @@ from gpt4all import GPT4All
 import langid
 from deep_translator import GoogleTranslator
 import os
-from gtts import gTTS 
 from flask import Flask, render_template, request, jsonify
 
 gptj = GPT4All(model_name="wizardLM-13B-Uncensored.ggmlv3.q4_0.bin", model_path="./model")
